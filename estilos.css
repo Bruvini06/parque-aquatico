@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fresca&family=Manrope:wght@500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +24,8 @@ header img {
     margin-top: 9px;
     margin-right: 0px;
 }
-header nav a{
+
+header nav a {
     text-decoration: none;
     font-family: 'Fresca', sans-serif;
     color: white;
@@ -31,13 +33,39 @@ header nav a{
     font-size: 25px
 }
 
-header h1{
-    font-size: ;
+header h1 {
     color: white;
     font-family: 'Fresca', sans-serif;
 }
 
-.pesquisa{
+.pesquisa {
     margin-right: 10px;
 }
 
+.plano-de-fundo {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(imagens/praia.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.logo{
+    width: 100%;
+    height: 100%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.navinicio{
+    background-image: url(/parque-aquatico/images/slide1.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1000px;
+}
+
+.principais{
+    
+}
