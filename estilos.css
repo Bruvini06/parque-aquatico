@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fresca&family=Manrope:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #5656f8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    /* width: 97vw; */
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+
+header img {
+    width: 270px;
+    height: 132px;
+    margin-top: 9px;
+    margin-right: 0px;
+}
+header nav a{
+    text-decoration: none;
+    font-family: 'Fresca', sans-serif;
+    color: white;
+    padding: 10px;
+    font-size: 25px
+}
+
+header h1{
+    font-size: ;
+    color: white;
+    font-family: 'Fresca', sans-serif;
+}
+
+.pesquisa{
+    margin-right: 10px;
+}
+
