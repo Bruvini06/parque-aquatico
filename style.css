@@ -1,13 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fresca&family=Manrope:wght@500&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'inter', sans-serif;
-    letter-spacing: 1px;
-    text-decoration: none;
-}
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Poppins:ital,wght@1,300&display=swap);
 
 :root{
     --color-neutral-0: #5656f8;
@@ -16,80 +7,63 @@
     --color-neutral-40: #f5f5f5;
 }
 
-header {
-    background-color: #5656f8;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
-    /* width: 97vw; */
-    position: sticky;
-    top: 0;
-    z-index: 9;
+h2{
+    text-align: center;
+    font-size: 70px;
 }
-
-header img {
-    width: 270px;
-    height: 132px;
-    margin-top: 9px;
-    margin-right: 0px;
+h3{
+    text-align: center;
+    font-size: 45px;
 }
-
-header nav a {
-    text-decoration: none;
-    font-family: 'Fresca', sans-serif;
-    color: white;
-    padding: 10px;
-    font-size: 25px
+img{
+    height: 550px;
+    width: 650px;
 }
-
-header h1 {
-    color: white;
-    font-family: 'Fresca', sans-serif;
-}
-
-.pesquisa {
-    margin-right: 10px;
-}
-.logo{
-    width: 100%;
-    height: 100%;
-}
-
-body {
-    background-image: url(images/slide1.jpg);
-}
-
-.principais{
-margin-top: 30px;
-}
-
-.funcionamento{
-    margin-top: -60px;
-}
-
-.ingressos{
-    margin-top: -40px;
-}
-
-.numeros{
-    margin-top: -40px;
-}
-
-.plano-de-fundo{
-    background-color: #5656f8;
-    height: 200px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-top: 300px;
-    justify-content: space-around;
-    color: white;
+/* ul{
+    text-align: center;
     font-size: 20px;
+} */
+.vargas{
+    margin-left: auto;
 }
+.vargs{
+    float: right;
+}
+.mussolini{
+    justify-content: right;
+    text-align: right;
+    }
+.musso{
+    float: left;
 
-/* ________________________________ */
+}
+.sedorussen{
+    margin-left: auto;
 
+}
+.sedo{
+    float: right;
+}
+.fiudesncapado{
+    justify-content: right;
+    text-align: right;
+}
+.fiu{
+    float: left;
+    margin-right: auto;
+}
+p{
+    font-size: 23px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+
+}
 main{
     height: 80vh;
 }
@@ -217,4 +191,47 @@ footer{
     font-size: 0.9;
     padding: 1.5rem;
     font-weight: 100;
+}
+
+
+/* _____________________________ */
+
+header {
+    background-color: #5656f8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    /* width: 97vw; */
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+
+header img {
+    width: 270px;
+    height: 132px;
+    margin-top: 9px;
+    margin-right: 0px;
+}
+
+header nav a {
+    text-decoration: none;
+    font-family: 'Fresca', sans-serif;
+    color: white;
+    padding: 10px;
+    font-size: 25px
+}
+
+header h1 {
+    color: white;
+    font-family: 'Fresca', sans-serif;
+}
+
+.pesquisa {
+    margin-right: 10px;
+}
+.logo{
+    width: 100%;
+    height: 100%;
 }
